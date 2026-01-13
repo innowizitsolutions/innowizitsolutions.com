@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers | Innowiz IT Solutions</title>
+  <meta name="description" content="Explore IT job opportunities with Innowiz IT Solutions. Submit your resume and grow your career with us." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+<!-- HEADER -->
+<header class="bg-white shadow fixed w-full z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold text-indigo-700">
+      Innowiz IT Solutions
+    </a>
+    <nav class="hidden md:flex space-x-6 font-medium">
+      <a href="index.html#services" class="hover:text-indigo-600">Services</a>
+      <a href="index.html#industries" class="hover:text-indigo-600">Industries</a>
+      <a href="index.html#about" class="hover:text-indigo-600">About</a>
+      <a href="careers.html" class="text-indigo-700 font-semibold">Careers</a>
+      <a href="index.html#contact" class="hover:text-indigo-600">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="pt-32 pb-20 bg-gradient-to-br from-indigo-700 to-purple-700 text-white">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-6">Build Your Career With Us</h1>
+    <p class="text-lg">
+      Join a women-owned IT staffing firm connecting talented professionals with top organizations.
+    </p>
+  </div>
+</section>
+
+<!-- JOB CATEGORIES -->
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Current Opportunities</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Software Engineering</h3>
+        <p>Java, Spring Boot, Microservices, Frontend, Full Stack</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Cloud & DevOps</h3>
+        <p>AWS, Azure, GCP, DevOps, Kubernetes, CI/CD</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Data & QA</h3>
+        <p>Data Engineering, Analytics, Automation, Manual QA</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME SUBMISSION -->
+<section class="py-20 bg-indigo-700 text-white">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Submit Your Resume</h2>
+
+    <div class="bg-white text-slate-800 p-8 rounded-2xl shadow max-w-xl mx-auto">
+      <form action="mailto:hr@innowizitsolutions.com" method="post" enctype="multipart/form-data" class="space-y-4">
+        <input type="text" name="name" placeholder="Full Name" class="w-full border p-3 rounded" required />
+        <input type="email" name="email" placeholder="Email Address" class="w-full border p-3 rounded" required />
+        <input type="text" name="skills" placeholder="Primary Skills (Java, AWS, QA...)" class="w-full border p-3 rounded" />
+        <textarea name="message" placeholder="Brief summary about your experience" class="w-full border p-3 rounded" rows="4"></textarea>
+
+        <button type="submit" class="w-full bg-indigo-700 text-white py-3 rounded font-semibold">
+          Email Resume to HR
+        </button>
+      </form>
+
+      <p class="text-sm text-center mt-6">
+        Or email your resume directly to  
+        <a href="mailto:hr@innowizitsolutions.com" class="text-indigo-700 font-semibold">
+          hr@innowizitsolutions.com
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-slate-900 text-slate-300 py-8">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <p>© 2023 Innowiz IT Solutions. All Rights Reserved.</p>
+    <p class="text-sm mt-2">Women-Owned IT Staffing & Consulting Company</p>
+  </div>
+</footer>
+
+</body>
+</html>
